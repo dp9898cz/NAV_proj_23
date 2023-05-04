@@ -22,7 +22,7 @@ Pro spuštění projektu je potřeba využít `Arduino IDE` alespoň ve verzi 2.
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 ```
 
-Následně je v IDE potřeba zvolit desku `ESP32 Dev Module` a správný port pro naprogramování.
+Po instalaci balíku `ESP32` je v IDE potřeba zvolit desku `ESP32 Dev Module` a správný port pro naprogramování.
 Před samotným naprogramováním desky je nezbytné doinstalovat potřebné knihovny, které jsou využity. Jmenovitě jde o následující knihovny:
 
 ```txt
