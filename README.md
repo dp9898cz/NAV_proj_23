@@ -1,6 +1,6 @@
 # ESP32 - Měření vzdálenosti ultrazvukovým senzorem
 
-## Projekt do předmětu NAV, VUT FIT 2023
+## Projekt do předmětu [NAV](https://www.fit.vut.cz/study/course/NAV/.cs), VUT FIT 2023
 
 autor: Daniel Pátek (xpatek08@stud.fit.vutbr.cz)
 
