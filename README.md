@@ -14,6 +14,8 @@ Cílem projektu je navrhnout a realizovat vestavěný systém pro měření vzd�
 
 ### Implementace
 
+V samotném kódu jsou nejprve jsou načteny potřebné knihovny pro displej a senzory. Následně jsou definovány piny pro senzory a proměnné pro ovládání zpoždění a debouncingu. V `setup` funkci jsou inicializovány senzory a nastavena počáteční pozice enkodéru. Dále je registrována interrupční rutina pro ovládání enkodéru. V `loop` funkci jsou vzdálenosti zobrazeny na displeji a posílány do sériového portu. Kromě toho je zde ovládání zpoždění pomocí enkodéru a funkce `delay`. Celkově tedy tento kód umožňuje měřit vzdálenosti a měnit zpoždění mezi jednotlivými měřeními pomocí enkodéru.
+
 ### Spuštění projektu
 
 Pro spuštění projektu je potřeba využít `Arduino IDE` alespoň ve verzi 2.1.0. Pro naprogramování desky s čipem `ESP32` je zapotřebí tuto desku přidat do seznamu podporovaných (_Additional Board Manager URLs_) pomocí následujícího odkazu:
